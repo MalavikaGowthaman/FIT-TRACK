@@ -5,7 +5,7 @@ import google.generativeai as genai
 import os
 
 # to load api key
-genai.configure(api_key='AIzaSyAX0ptOJ6ISQ9xPfyloHWtB5a7acwz6eec')
+genai.configure(api_key='api')
 
 # Function to calculate BMI
 def calculate_bmi(weight, height):
