@@ -1,0 +1,29 @@
+Step - 1 Create virtual env in prompt
+conda create -n <name>
+
+Step -2 Activate Virtual env
+
+Step -3 Navigate to the respective folder, where you have your .py and .txt file
+
+Step -4 run 
+pip install -r requirements.txt
+
+Step -5 After successful installation run
+streamlit run name.py
+
+Step -6 Check the process whether its working fine.
+
+Step -7 Create a repository in GitHub and upload the .py and .txt files.
+
+Step -8 Click this link https://streamlit.io/cloud
+
+Step -9 Sign in using google/GitHub
+
+Step -10 Click create app
+
+Step -11 Click Have an app already
+
+Step -12 Enter the necessary details
+
+Step -13 Click Deploy
+
