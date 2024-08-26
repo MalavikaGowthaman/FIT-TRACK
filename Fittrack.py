@@ -4,8 +4,9 @@ import streamlit as st
 import google.generativeai as genai
 import os
 
-# to load api key
-genai.configure(api_key='AIzaSyAX0ptOJ6ISQ9xPfyloHWtB5a7acwz6eec')
+load_dotenv()
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")  
+os.environ['GOOGLE_API_KEY'] =  GOOGLE_API_KEY
 
 # Function to calculate BMI
 def calculate_bmi(weight, height):
